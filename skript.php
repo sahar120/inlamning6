@@ -35,6 +35,7 @@ if ($_POST['logga_ut']) {
   session_start();
   session_destroy();
 }
+echo "<a href='http://localhost/inlamning7/form.html'>Ladda upp fil</a>";
 
 $conn->close();
 
